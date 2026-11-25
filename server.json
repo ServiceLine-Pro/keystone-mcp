@@ -3,12 +3,25 @@
   "name": "ai.keystonecloud/keystone",
   "title": "Keystone",
   "description": "Your AI does the work in your business apps: calls, Google Maps rankings, ads, reviews and websites.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://keystonecloud.ai/connect-your-ai",
+  "repository": {
+    "url": "https://github.com/ServiceLine-Pro/keystone-mcp",
+    "source": "github"
+  },
   "icons": [
-    { "src": "https://keystonecloud.ai/assets/keystone-icon-192.png", "mimeType": "image/png", "sizes": ["192x192"] }
+    {
+      "src": "https://keystonecloud.ai/assets/keystone-icon-192.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "192x192"
+      ]
+    }
   ],
   "remotes": [
-    { "type": "streamable-http", "url": "https://keystonecloud.ai/mcp" }
+    {
+      "type": "streamable-http",
+      "url": "https://keystonecloud.ai/mcp"
+    }
   ]
 }
