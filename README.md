@@ -9,7 +9,7 @@ Keystone lets your AI do real jobs in the apps your business already uses: your 
 [![Add to Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=keystone&config=eyJ1cmwiOiJodHRwczovL2tleXN0b25lY2xvdWQuYWkvbWNwIn0%3D)
 [![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Keystone-0098FF)](https://insiders.vscode.dev/redirect/mcp/install?name=keystone&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A//keystonecloud.ai/mcp%22%7D)
 
-This repository holds the public listing files: [`server.json`](server.json) for the [official MCP Registry](https://registry.modelcontextprotocol.io) (`ai.keystonecloud/keystone`) and an [agent skill](skills/keystone/SKILL.md). The server itself is hosted; there is nothing to build or run.
+This repository holds the public listing files: [`server.json`](server.json) for the [official MCP Registry](https://registry.modelcontextprotocol.io) (`ai.keystonecloud/keystone`) and an [agent skill](skills/keystone-cloud/SKILL.md). The server itself is hosted; there is nothing to build or run.
 
 ## What you can ask
 
@@ -77,10 +77,10 @@ openclaw mcp login keystone
 
 ## Agent skill
 
-[`skills/keystone/SKILL.md`](skills/keystone/SKILL.md) teaches an agent which Keystone tools to use for each job. It follows the [Agent Skills](https://agentskills.io) format, so it works in Claude, OpenClaw, Hermes Agent and other agents that load skills.
+[`skills/keystone-cloud/SKILL.md`](skills/keystone-cloud/SKILL.md) teaches an agent which Keystone tools to use for each job. It follows the [Agent Skills](https://agentskills.io) format, so it works in Claude, OpenClaw, Hermes Agent and other agents that load skills.
 
 ```bash
-hermes skills install ServiceLine-Pro/keystone-mcp/skills/keystone
+hermes skills install ServiceLine-Pro/keystone-mcp/skills/keystone-cloud
 ```
 
 ## Pricing

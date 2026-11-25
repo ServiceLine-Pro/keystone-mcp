@@ -1,5 +1,5 @@
 ---
-name: keystone
+name: keystone-cloud
 description: Do real work in a business's apps through the Keystone MCP server, including calls, Google Maps rankings, ads, reviews, CRM, websites and any web app.
 version: 1.0.0
 author: Keystone
@@ -12,7 +12,7 @@ metadata:
     tags: [business, marketing, agency, crm, ads, phone, seo]
 ---
 
-# Keystone
+# Keystone Cloud
 
 Keystone is a hosted MCP server at `https://keystonecloud.ai/mcp`. Once it is connected, the agent can work in the apps a business already uses: its phone line and call recordings, Google Business Profile, Google and Meta ads, analytics, reviews, calendar, CRM, accounting, email and hosted websites. Web apps with no API work through API Anything, which runs the task in a cloud browser. Agencies keep one workspace per client.
 
